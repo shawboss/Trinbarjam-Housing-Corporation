@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121F3D; /* Dark Blue */
+    color: #E0E0E0; /* Light Gray */
+}
+
+/* Header */
+header {
+    background-color: #1B2A49; /* Slightly lighter navy blue */
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00E0FF; /* Cyan */
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold */
+}
+
+/* Main Content Sections */
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1F3D5A; /* Darker Blue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 247, 255, 0.452);
+    color: white;
+}
+
+/* Unique Section Styles */
+#Info {
+    background-color: #2E5A77; /* Deep Teal */
+    box-shadow: 0 0 10px rgba(62, 255, 44, 0.452);
+}
+
+#about1 {
+    background-color: #00A7E1; /* Bright Aqua */
+    box-shadow: 0 0 10px rgba(62, 255, 44, 0.452);
+}
+
+#about2 {
+    background-color: #276678; /* Muted Teal */
+    box-shadow: 0 0 10px rgba(62, 255, 44, 0.452);
+}
+
+#about3 {
+    background-color: #00A7E1; /* Bright Aqua */
+    box-shadow: 0 0 10px rgba(62, 255, 44, 0.452);
+}
+
+/* Footer */
+footer {
+    background-color: #1B2A49; /* Navy */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; /* Smooth rounded corners */
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.team .team-member {
+    max-width: 300px;
+    background: #2E5A77; /* Deep Teal */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.3);
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.team p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.housing-projects {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1F3D5A;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 247, 255, 0.452);
+    color: white;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #2E5A77;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #00A7E1;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #276678;
+}
+
+tr:hover {
+    background-color: #00E0FF;
+    color: #000;
+}
+
+/* Gallery */
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.3);
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #FFD700;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FFB700;
+}
